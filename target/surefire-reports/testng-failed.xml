@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Chrome Test(failed)" verbose="0">
+    <parameter name="Port" value="5555"/>
+    <classes>
+      <class name="org.capstone.TestPackage.TestCase1">
+        <methods>
+          <include name="testCase1"/>
+          <include name="initialSetup"/>
+        </methods>
+      </class> <!-- org.capstone.TestPackage.TestCase1 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="5" name="Microsoft Edge Test(failed)" verbose="0">
+    <parameter name="Port" value="6666"/>
+    <classes>
+      <class name="org.capstone.TestPackage.TestCase2">
+        <methods>
+          <include name="initialSetup"/>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- org.capstone.TestPackage.TestCase2 -->
+    </classes>
+  </test> <!-- Microsoft Edge Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Chrome Test</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">488,365</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Microsoft Edge Test</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">364,410</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num attn">2</th><th class="num">852,775</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Chrome Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.capstone.TestPackage.TestCase1</td><td><a href="#m0">testCase1</a></td><td rowspan="1">1687439419644</td><td rowspan="1">137272</td></tr><tr><th colspan="4">Chrome Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase2</td><td><a href="#m1">testCase2</a></td><td rowspan="1">1687439590912</td><td rowspan="1">81848</td></tr><tr class="passedodd"><td rowspan="1">org.capstone.TestPackage.TestCase3</td><td><a href="#m2">testCase3</a></td><td rowspan="1">1687439706319</td><td rowspan="1">23468</td></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase4</td><td><a href="#m3">testCase4</a></td><td rowspan="1">1687439753934</td><td rowspan="1">30613</td></tr><tr class="passedodd"><td rowspan="1">org.capstone.TestPackage.TestCase5</td><td><a href="#m4">testCase5</a></td><td rowspan="1">1687439806808</td><td rowspan="1">42357</td></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase6</td><td><a href="#m5">testCase6</a></td><td rowspan="1">1687439863276</td><td rowspan="1">20539</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Microsoft Edge Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">org.capstone.TestPackage.TestCase2</td><td><a href="#m6">testCase2</a></td><td rowspan="1">1687439943656</td><td rowspan="1">74953</td></tr><tr><th colspan="4">Microsoft Edge Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase1</td><td><a href="#m7">testCase1</a></td><td rowspan="1">1687439900164</td><td rowspan="1">32034</td></tr><tr class="passedodd"><td rowspan="1">org.capstone.TestPackage.TestCase3</td><td><a href="#m8">testCase3</a></td><td rowspan="1">1687440035063</td><td rowspan="1">5823</td></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase4</td><td><a href="#m9">testCase4</a></td><td rowspan="1">1687440056617</td><td rowspan="1">20857</td></tr><tr class="passedodd"><td rowspan="1">org.capstone.TestPackage.TestCase5</td><td><a href="#m10">testCase5</a></td><td rowspan="1">1687440100050</td><td rowspan="1">57433</td></tr><tr class="passedeven"><td rowspan="1">org.capstone.TestPackage.TestCase6</td><td><a href="#m11">testCase6</a></td><td rowspan="1">1687440183580</td><td rowspan="1">64703</td></tr></tbody>
+</table>
+<h2>Chrome Test</h2><h3 id="m0">org.capstone.TestPackage.TestCase1#testCase1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=114.0.5735.134)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1OTBL48&apos;, ip: &apos;192.168.143.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\jadhav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.143.132:4444/s..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac559b945b34cab927fce55dfc41412d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at org.capstone.PagePackage.AccountCreatedPage.clickOnContinueButton(AccountCreatedPage.java:24)
+	at org.capstone.TestPackage.TestCase1.testCase1(TestCase1.java:46)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">org.capstone.TestPackage.TestCase2#testCase2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">org.capstone.TestPackage.TestCase3#testCase3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">org.capstone.TestPackage.TestCase4#testCase4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">org.capstone.TestPackage.TestCase5#testCase5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">org.capstone.TestPackage.TestCase6#testCase6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Microsoft Edge Test</h2><h3 id="m6">org.capstone.TestPackage.TestCase2#testCase2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[text()=&apos;Continue&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1OTBL48&apos;, ip: &apos;192.168.143.132&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.click(Unknown Source)
+	at org.capstone.PagePackage.AccountCreatedPage.clickOnContinueButton(AccountCreatedPage.java:27)
+	at org.capstone.TestPackage.TestCase2.testCase2(TestCase2.java:43)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">org.capstone.TestPackage.TestCase1#testCase1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">org.capstone.TestPackage.TestCase3#testCase3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">org.capstone.TestPackage.TestCase4#testCase4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">org.capstone.TestPackage.TestCase5#testCase5</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">org.capstone.TestPackage.TestCase6#testCase6</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

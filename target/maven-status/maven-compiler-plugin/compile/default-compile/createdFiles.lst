@@ -1,0 +1,9 @@
+org\capstone\BasePackage\BaseConfiguration.class
+org\capstone\PagePackage\ProductsPage.class
+org\capstone\PagePackage\SignupLoginpage.class
+org\capstone\PagePackage\CreateAccountPage.class
+org\capstone\PagePackage\AccountCreatedPage.class
+org\capstone\PagePackage\HomePage.class
+Manipal\CapstoneProject\App.class
+org\capstone\PagePackage\CartPage.class
+org\capstone\PagePackage\DeleteAccountPage.class

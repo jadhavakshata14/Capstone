@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 857.498 s <<< FAILURE! - in TestSuite
+org.capstone.TestPackage.TestCase1.testCase1  Time elapsed: 137.377 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from disconnected: unable to send message to renderer
+  (Session info: chrome=114.0.5735.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1OTBL48', ip: '192.168.143.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\jadhav\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.143.132:4444/s..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ac559b945b34cab927fce55dfc41412d
+	at org.capstone.TestPackage.TestCase1.testCase1(TestCase1.java:46)
+
+org.capstone.TestPackage.TestCase2.testCase2  Time elapsed: 74.958 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//a[text()='Continue']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1OTBL48', ip: '192.168.143.132', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.capstone.TestPackage.TestCase2.testCase2(TestCase2.java:43)
+
